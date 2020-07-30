@@ -27,12 +27,15 @@ function randomcolor(){
  	h3.textContent = body.style.background;
 }
 
-random.addEventListener("click",randomcolor());
-
+ if (random) {
+random.addEventListener("click",randomcolor,false);
+ }
+ if (color1) {
 color1.addEventListener("input",gradient);
-
+ }
+if (color2) {
 color2.addEventListener("input",gradient);
-
+}
 
 //The JavaScript Math object allows you to perform mathematical tasks on numbers.
 //Math.PI;       //3.14159
