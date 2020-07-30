@@ -27,7 +27,7 @@ function randomcolor(){
  	h3.textContent = body.style.background;
 }
 
-random.addEventListener("click",randomcolor);
+random.addEventListener("click",randomcolor());
 
 color1.addEventListener("input",gradient);
 
