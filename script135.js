@@ -84,4 +84,4 @@ function fun2function(){
   	fun="Ahhhhhh";
 	console.log(fun); 
 }
-console.log(fun);
+//console.log(fun);
